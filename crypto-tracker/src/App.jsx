@@ -4,13 +4,31 @@ import Feed from './Components/Feed/Feed'
 import Sidebar from './Components/Sidebar/Sidebar'
 import './App.css'
 function App() {
-  const [count, setCount] = useState(0)
+
+  const Header = () =>{
+    return(
+      <>
+      <header>
+        <Navbar/>
+      </header>
+      </>
+  
+    );
+  };
+
+  const MainContent = () =>{
+    return(
+      <main>
+        <Sidebar/>
+        <Feed/>
+      </main>
+    );
+  };
 
   return (
     <>
-     <Navbar/>
-     <Sidebar/>
-     <Feed></Feed>
+     <Header/>
+     <MainContent></MainContent>
     </>
   )
 }
