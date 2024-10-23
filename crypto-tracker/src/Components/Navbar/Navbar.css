@@ -1,0 +1,54 @@
+.header{
+    position: absolute;
+    z-index: 1015;
+    top: 0;
+    margin-left: 1%;
+    width:100%;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 40px 120px;
+    color: white;
+}
+
+.nav-logo{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style:none;
+    font-size: 18px;
+    gap: 90px;
+}
+
+.nav-contact{
+    border-radius: 50px;
+    padding: 10px 38px;
+    background:#fff;
+    color: #262626;
+}
+.nav-home{
+    color: white;
+}
+
+.nav-menu li a:hover{
+    color: orange;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.4s ease;
+}
+
+.nav-menu li .nav-contact{
+    color:black;
+    background-color: whitesmoke;
+}
+
