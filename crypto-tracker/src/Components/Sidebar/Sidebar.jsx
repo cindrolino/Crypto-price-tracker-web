@@ -19,13 +19,18 @@ const items = [
     },
     {
         key:'2',
-        icon:<ContainerOutlined/>,
+        icon:<AppstoreOutlined></AppstoreOutlined>,
         label : 'Discover'
     },
     {
         key:'3',
-        icon:<AppstoreOutlined></AppstoreOutlined>,
+        icon:<ContainerOutlined></ContainerOutlined>,
         label:'Docs'
+    },
+    {
+        key:'4',
+        icon:<MailOutlined></MailOutlined>,
+        label:'Transaction'
     }
 ]
 
