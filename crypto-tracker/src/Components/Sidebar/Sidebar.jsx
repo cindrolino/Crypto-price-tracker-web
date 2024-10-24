@@ -15,7 +15,17 @@ const items = [
     {
         key : '1',
         icon : <PieChartOutlined></PieChartOutlined>,
-        label : 'Option1'
+        label : 'Dashboard'
+    },
+    {
+        key:'2',
+        icon:<ContainerOutlined/>,
+        label : 'Discover'
+    },
+    {
+        key:'3',
+        icon:<AppstoreOutlined></AppstoreOutlined>,
+        label:'Docs'
     }
 ]
 
