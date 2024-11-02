@@ -1,18 +1,12 @@
 .header{
-    position:absolute;
     z-index: 1;
-    top: 0;
-    width:60%;
-    right: 0;
-    left: 0;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+
 }
 .nav{
     display:flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items:center;
-    margin: 40px 120px;
     color: white;
 }
 
@@ -26,7 +20,7 @@
     display: flex;
     align-items: center;
     list-style:none;
-    font-size: 18px;
+    font-size: 25px;
     gap: 90px;
 }
 
@@ -41,7 +35,7 @@
 }
 
 .nav-menu li a:hover{
-    color: orange;
+    color: rgb(93, 243, 160);
 }
 
 .nav-menu li a{
@@ -62,6 +56,8 @@
     border: none;
     font-size: 17px;
     color: white;
+    color-scheme: light dark;
+
 }
 .nav ::placeholder{
     color: white;

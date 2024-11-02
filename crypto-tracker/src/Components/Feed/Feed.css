@@ -1,5 +1,45 @@
 .feed-h1{
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: center;
     display:block;
+    color: white;
+
+}
+
+.xo{
+    border-radius: 5%;
+}
+.ship{
+    border-radius: 5%;
+}
+.sudoku{
+    border-radius: 5%;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.image-container a{
+    color: white;
+    font-size: 30px ;
+    text-align: center;
+    transition: color 0.4s ease;
+    text-decoration: none;
+}
+
+.image-container a:hover{
+    color: rgb(93, 243, 160);
+}
+
+
+.images{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
 }
